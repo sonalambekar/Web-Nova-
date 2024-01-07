@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)50%), url(a.jpg);
+    background-size: cover;
+    
+
+    
+}
+.icon{
+    background-image: url(Free_Sample_By_Wix.jpg);
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    border-radius: 38px;
+    margin-left: 4px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    
+}
+ul{
+    list-style-type: none;
+    
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 30px;
+    margin-left: 100px;
+    margin-right: 50vh;
+    transition: 4s;
+    
+    
+       
+}
+a{
+    color: aliceblue;
+    cursor: pointer;
+    text-decoration: none;
+    position: fixed;
+}
+a:hover{
+    color: orange;
+}
+.input{
+    position: fixed;
+    top: 27px;
+    right: 8px;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+.type{
+    border: none;
+    width: 150px;
+    height: 18px;
+    border-radius: 2px;
+}
+.btn{
+    border: none;
+    height: 19px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.btn:hover{
+    color: white;
+    background-color: orange;
+}
+.sub{
+    height: 500px;
+    background-color: orange;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+.box1{
+    border: 1px white solid;
+    height: 400px;
+    width: 300px;
+    margin-top: 30px;
+    transition: 1s;
+    border-radius: 8px;
+    background-color: rgb(3, 3, 42);
+}
+.box2{
+    border: 1px solid white;
+    height: 400px;
+    width: 300px;
+    margin-top: 30px;
+    transition: 1s;
+    border-radius: 8px;
+    background-color: rgb(3, 3, 42);
+}
+.box3{
+    border: 1px white solid;
+    height: 400px;
+    width: 300px;
+    margin-top: 30px;
+    transition: 1s;
+    border-radius: 8px;
+    background-color: rgb(3, 3, 42);
+}
+.box1:hover{
+    border: 2px solid white;
+    height:450px;
+    width: 350px;
+    margin-top: 20px;
+    
+}
+.box2:hover{
+    border: 2px solid white;
+    height: 450px;
+    width: 350px;
+    margin-top: 20px;
+
+}
+.box3:hover{
+    border: 2px solid white;
+    height: 450px;
+    width: 350px;
+    margin-top: 20px;
+
+}
+h1{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+}
+h1:hover{
+    font-weight: bold;
+    
+}
+p{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+h2{
+    margin-top: 200px;
+    color: white;
+    margin-left:100px;
+    font-size: 50px;
+}
+h3{
+    color: white;
+    margin-left: 100px;
+    
+}
+.contact{
+    color: white;
+}
+.sub3{
+    background-color: orange;
+    margin-top: 0;
+    padding: 0;
+    height: 300px ;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.form{
+    border: 1px solid white;
+    height: 200px;
+    width: 700px;
+    background-color:rgb(3, 3, 42) ;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+.this{
+    display: contents;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.sign{
+    margin-top: 50px;
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+
+}
+.sign:hover{
+    background-color: orange;
+    width: 120px;
+    border-radius: 4px;
+}
+.name{
+    margin-top: 20px ;
+    margin-right: 10px;
+}
+.email{
+    margin-right: 10px;
+}
+.foot{
+    background-color: rgb(3, 3, 42);
+    height: 50px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
